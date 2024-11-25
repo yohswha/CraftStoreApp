@@ -1,69 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 <title>ResinArt Page</title>
 <META name="author" content="Yohs">
 <META name="description" content="resin,  art, Craft, paintings">
-<style>
-	.container{margin:0px; padding:0px}
-	.header{
-        margin:0;
-        padding-top:1px;
-        padding-bottom:1px;
-        background-color:rgb(31,94,158);
-        text-align:center;
-        font-family:verdana;
-    	color: #fff}
-    .footer{
-        background-color:gray;
-        text-align:center;
-        margin-bottom:0px
- 
-    }
-    nav ul{
-    	list-style-type: none;
-    	background-color:rgb(90,177,231);
-        padding-top:0px; margin:0px;
-    }
-    nav ul li{
-    	display:inline;
-    	margin-right:20px;
-    }
-</style>
+<link rel="stylesheet" href="css/style.css">
 </head>
-<body lang="sp">
-	<div class="container">
-        <section class="header">
-        <h1>Resin Art</h1>
-        </section>
-
+<body>
+	<section class="MenuParent">
+        <h1 class="header">Resin Art</h1>
+        
         <nav>
             <ul>	
                 <li><a href="#">Home</a></li>
-                <li>Contacto</a></li>
-                <li>Quienes somos</li>
-                <li>Galeria</li>
+                <li><a href="contact.html">Contacto</a></li>
+                <li><a href="about.html">Quienes Somos</a> </li>
+                <li><a href="galery.html">Galeria</a></li>
+                <li><a href="product.html">Productos</a></li>
+
             </ul>
          </nav>
-     </div>
+    </section>
      
     <p>En esta pagina encontraras piezas de arte <em>originales y unicas</em>, pero no solo eso sino que podras solicitar tus propias piezas personalizadas</p>
     
     <h3 id="WhoAreWe">Quienes Somos </h3>
     <p>Somos una tienda de artesanias donde siempre buscamos crear y personalizar todo lo que nuestros clientes imaginan, tenemos los mas altos estandares de aplicacion y acabado en nuestro productos, somos calidad y creatividad, somos <strong>Resin Art</strong></p>
-    <h2 id="galery"></h2>
+    <h3 id="galery">Galeria</h3>
+
+    
+    <img src="images/gato.jpg" alt="Imagen de gato" >
+    <img src="images/wave.jpg" alt="Imagen de ola de mar">
+    <img src="images/art.jpg" alt="Imagen de cuadro">
+
     <h3 id="contact">Contacto</h3>
     <p>Nos encantaría saber de ti! Si tienes alguna 	pregunta, comentario o sugerencia, no dudes en 		ponerte en contacto con nosotros.
-     <pre>Email: info@tuempresa.com</pre>
-     <pre>Teléfono: +123 456 7890</pre>
-     <pre>Dirección: Calle Ejemplo 123, Ciudad,   País</pre></p>
+     Email: info@tuempresa.com
+     Teléfono: +123 456 7890
+     Dirección: Calle Ejemplo 123, Ciudad,   País
+    </p>
           <!--Links de retorno   -->
     <h5>Links</h5>
     <ul><li><a href="#WhoAreWe">Quienes somos</a>
     </li>
     <li><a href="#contact">Contactos</a></li></ul>
     <!-- Footer -->
-    <section class="footer"> &copy By ResignArt </section>
+    <footer class="footer"> &copy; By ResignArt </footer>
     
 </body>
 </html>
