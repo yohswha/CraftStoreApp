@@ -1,19 +1,25 @@
-    body{margin:0px; padding:0px}
+    body{margin:0px;
+         padding:0px;
+        background-color: #122a35;
+        color: #99a0a2;}
 	.header{
         margin:0;
         padding-top:20px;
         padding-bottom:20px;
-        background-color:rgb(31,94,158);
+        background-color:rgb(3, 38, 57);
         text-align:center;
-        font-family:verdana;
-    	color: #fff}
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    	color: #fff
+        }
+
 
     nav ul{
         list-style-type: none;
-        background-color:rgb(90,177,231);
+        background-color:rgb(40, 88, 119);
         padding-top:10px;
         padding-bottom: 10px;
         margin:0;
+        
     }
     nav ul li{
         display:inline;
@@ -45,10 +51,10 @@
         padding: 15px;
     }
     tr:nth-child(even){
-        background-color: rgb(182, 171, 171);
+        background-color: rgb(13, 30, 28);
     }
     tr:hover{
-        background-color: rgb(203, 203, 238);
+        background-color: rgb(9, 22, 26);
     }
     table{
         margin: auto;
@@ -64,9 +70,8 @@
         border: solid 2px rgb(203, 203, 238);;
         border-radius: 22px;      
     }
-    form input{
+    form input, textarea{
         width: 400px;
+        background-color: #9aaeb7;
     }
-    form textarea{
-        width: 400px;
-    }
+   
