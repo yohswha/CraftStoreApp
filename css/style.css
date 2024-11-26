@@ -9,7 +9,8 @@
         background-color:rgb(3, 38, 57);
         text-align:center;
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    	color: #fff
+    	color: #fff;
+        width: 100%;
         }
 
 
@@ -74,5 +75,13 @@
     form input, textarea{
         width: 400px;
         background-color: #9aaeb7;
+    }
+    form .submitBtn{
+        margin: auto;
+        background-color: #1e947d;
+        border-radius: 10px;
+        width: 100px;
+        font-style:italic;
+        font-size:large;
     }
    
