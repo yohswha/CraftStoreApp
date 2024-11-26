@@ -24,6 +24,12 @@
     nav ul li:hover{
         background-color:rgb(17, 121, 225);
     }
+    .container{
+        padding: 10px;
+        margin: auto;
+        width: 900px;
+        font-size: large;
+    }
     .footer{
         background-color:gray;
         text-align:center;
