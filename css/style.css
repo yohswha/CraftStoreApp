@@ -11,8 +11,14 @@
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     	color: #fff;
         width: 100%;
-        }
+    }
+    a{
+        text-decoration: none;
+    }
 
+    nav, ul,a{
+        color: #fff;
+    }
 
     nav ul{
         list-style-type: none;
