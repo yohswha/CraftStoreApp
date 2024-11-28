@@ -9,7 +9,7 @@
 </head>
 <body>
 	<section class="MenuParent">
-        <h1 class="header">Resin Art</h1>
+        <h1 class="header"><span class="red">R</span>esin Art</h1>
         
         <nav>
             <ul>	
@@ -26,16 +26,28 @@
     <article class="container">
     <p>En esta pagina encontraras piezas de arte <em>originales y unicas</em>, pero no solo eso sino que podras solicitar tus propias piezas personalizadas</p>
     
-    <h3 id="WhoAreWe">Quienes Somos </h3>
+    <h2 id="WhoAreWe">Quienes Somos </h2>
     <p>Somos una tienda de artesanias donde siempre buscamos crear y personalizar todo lo que nuestros clientes imaginan, tenemos los mas altos estandares de aplicacion y acabado en nuestro productos, somos calidad y creatividad, somos <strong>Resin Art</strong></p>
-    <h3 id="galery">Galeria</h3>
+    <h2 id="galery">Galeria</h2>
+    <section class="images">
 
-    
-    <img src="images/gato.jpg" alt="Imagen de gato" >
-    <img src="images/wave.jpg" alt="Imagen de ola de mar">
-    <img src="images/art.jpg" alt="Imagen de cuadro">
-
-    <h3 id="contact">Contacto</h3>
+        <figure>   
+            <img src="images/gato.jpg" alt="Imagen de gato" width="275" height="183">
+            <figcaption>Gato choreado de pintura</figcaption>
+       </figure>
+       <figure>
+           <img src="images/wave.jpg" alt="Imagen de ola de mar" width="271" height="186">
+           <figcaption>Gato choreado de pintura</figcaption>
+   
+       </figure>
+       <figure>    
+           <img src="images/art.jpg" alt="Imagen de cuadro" width="263" height="191">
+           <figcaption>Gato choreado de pintura</figcaption>
+   
+       </figure>
+    </section>
+   
+    <h2 id="contact">Contacto</h2>
     <p>Nos encantaría saber de ti! Si tienes alguna 	pregunta, comentario o sugerencia, no dudes en 		ponerte en contacto con nosotros.
      Email: info@tuempresa.com
      Teléfono: +123 456 7890
@@ -43,11 +55,51 @@
     </p>
 
     <section>
+        <form action="https://httpbin.org/get" method="get">
+            <fieldset>
+                <legend>Informacion Personal</legend>
+
+            <p>
+                <label for="name">Nombre:</label>
+                <input type="text" name="name" id="name" placeholder="Cual es tu nombre">
+                
+            </p>
+            
+            <p>
+                <label for="lastName">Apellidos:</label>
+                <input type="text" name="lastName" id="lastName" placeholder="Introduce tu Apellido por favor">
+
+            </p>
+            <p>
+                <label for="telephone">Telefono:</label>
+                <input type="tel" name="telephone" id="telephone" placeholder="ej: 800-000-4444">
+
+            </p>
+            <p>
+                <label for="email">Correo Electronico:</label>
+                <input type="email" name="email" id="email" placeholder="ej: Pedro@gmail.com">
+            </p>
+        </fieldset><br>
+        <fieldset>
+            <p>
+                <label for="userMessage">Mensaje:</label>
+                <textarea name="userMessage" id="userMessage" placeholder="Aqui va tu Mensaje"></textarea>
+
+            </p>
+            <p>
+                <button type="submit" class="submitBtn" formaction="https://httpbin.org/get">Enviar</button>
+
+            </p>
+        </fieldset>
+        </form>
+    </section>
+
+    <section>
         
         <h2>Horario</h2>
 
         <table>
-                <caption>Horario Laboral</caption>
+                <caption> Horario Laboral</caption>
            
             <tr>
                 <th>Lunes</th>
@@ -99,7 +151,7 @@
         <li><a href="#contact">Contactos</a></li></ul>
     </article>
     <!-- Footer -->
-    <footer class="footer"> Copyright &copy; By ResignArt </footer>
+    <footer> Copyright &copy; By ResignArt </footer>
     
 </body>
 </html>

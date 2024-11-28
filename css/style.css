@@ -1,28 +1,47 @@
-    body{margin:0px;
-         padding:0px;
-        background-color: #122a35;
-        color: #99a0a2;}
-	.header{
+    *{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+    body{
         margin:0;
-        padding-top:20px;
-        padding-bottom:20px;
+        padding:0;
+        background-color: #122a35;
+        color: #99a0a2;
+    }
+	.MenuParent{
+        margin:0;
         background-color:rgb(3, 38, 57);
         text-align:center;
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     	color: #fff;
-        width: 100%;
+        width: 100%;        
+    }
+    
+    .header{
+        text-align: center;
+        margin: 0;
+        padding-top: 10px;
+        font-size: 5vh;
+    }
+    .red{
+        font-size: 12vh;
+        color: red;
     }
     a{
         text-decoration: none;
     }
-
-    nav, ul,a{
+    .MenuParent nav{
+        background-color:rgb(43, 90, 122);
+        width:100%;
+        margin: 0;
+        padding: 0;
+    }
+    nav,a{
         color: #fff;
     }
 
     nav ul{
         list-style-type: none;
-        background-color:rgb(40, 88, 119);
         padding-top:10px;
         padding-bottom: 10px;
         margin:0;
@@ -40,18 +59,20 @@
     .container{
         padding: 10px;
         margin: auto;
-        width: 900px;
+        width: 1000px;
         font-size: large;
+    }
+    .images{
+        display: flex;
     }
     section{
         margin: auto;
-        padding: 20px;
     }
-    .footer{
-        background-color:gray;
+    footer{
+        background-color:rgb(255, 253, 253);
         text-align:center;
-        margin-bottom:0px
- 
+        margin-bottom:0px;
+        color: #122a35; 
     }
        
     table, th,td{
@@ -79,8 +100,11 @@
         padding: 50px;
         width: 50%;
         height: 30%;
-        border: solid 2px rgb(203, 203, 238);;
-        border-radius: 22px;      
+        border-radius: 22px;  
+        background-color: #0b3b4c;    
+    }
+    form fieldset{
+        border: solid 1px;
     }
     form input, textarea{
         width: 400px;
