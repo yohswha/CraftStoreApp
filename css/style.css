@@ -58,22 +58,25 @@
         background-color:rgb(17, 121, 225);
     }
     .container{
-        padding: 10px;
+        padding: 0 1rem;
         margin: auto;
-        width: 1000px;
+        width: 70rem;
         font-size: large;
-    }
+}
+    
     .slideContainer{
-        padding: 2rem;
+        padding: 0;
     }
     .sliderWrapper{
         position: relative;
-        max-width: 48rem;
-        margin: 0 auto;
+        max-width: 70rem;
+        margin: auto;
 
     }
     .slider{
         display: flex;
+        width: 73rem;
+        height: 30rem;
         aspect-ratio: 16/9;
         overflow-x: auto;
         scroll-snap-type: x mandatory;
@@ -94,6 +97,18 @@
         left: 50%;
         transform: translateX(-50%);
         z-index: 1;
+    }
+    .slider-nav a{
+        width: 1rem;
+        height: 1rem;
+        background-color: #fff;
+        opacity: 0.75;
+        border-radius: 50%;
+        transition:opacitty ease 250ms;
+
+    }
+    .slider-nav a:hover{
+        background-color: #0b3b4c;
     }
 
     .images{
@@ -146,15 +161,18 @@
     }
     
     form{
-        margin: auto;
+        margin: 2rem auto;
         padding: 50px;
-        width: 50%;
+        width: 40%;
         height: 30%;
         border-radius: 22px;  
         background-color: #0b3b4c;    
     }
     form fieldset{
         border: solid 1px;
+    }
+    form input{
+        height: 2rem;
     }
     form input, textarea{
         width: 400px;
