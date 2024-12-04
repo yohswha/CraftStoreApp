@@ -124,10 +124,7 @@
         height: auto;
 
     }
-    section{
-        margin: auto;
-    }
-
+   
     .sidebar{
       
     }
@@ -174,9 +171,14 @@
     form input{
         height: 2rem;
     }
+    form label{
+        margin: auto;
+    }
     form input, textarea{
-        width: 400px;
+        width: 100%;
         background-color: #9aaeb7;
+        font-size: inherit;
+        margin: 1rem auto;
     }
     form .submitBtn{
         margin: auto;
