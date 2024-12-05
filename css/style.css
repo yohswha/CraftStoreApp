@@ -57,6 +57,29 @@
     nav ul li:hover{
         background-color:rgb(17, 121, 225);
     }
+
+    .subMenu{
+        position: relative;
+        display: inline-block;
+    }
+   
+    .subMenu ul{
+        position: absolute;
+        display:none ;
+        background-color: #0b3b4c;
+        z-index: 1;
+        top: 50px;
+
+
+    }
+    .subMenu ul li{
+        color: black;
+        padding: 12px 16px;
+        display: block;
+    }
+    .subMenu:hover ul{
+        display: block;
+    }
     .container{
         padding: 0 1rem;
         margin: auto;
@@ -66,6 +89,7 @@
     
     .slideContainer{
         padding: 0;
+        display: none;
     }
     .sliderWrapper{
         position: relative;
