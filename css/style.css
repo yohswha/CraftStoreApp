@@ -89,6 +89,9 @@
         background-color: #0b3b4c;
 
     }
+    .sidebar{
+        display: inline-block;
+    }
 
     .container{
         padding: 0 1rem;
@@ -159,9 +162,6 @@
 
     }
    
-    .sidebar{
-      
-    }
     .links{
 
     }
