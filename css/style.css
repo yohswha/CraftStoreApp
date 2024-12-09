@@ -57,6 +57,39 @@
     nav ul li:hover{
         background-color:rgb(17, 121, 225);
     }
+
+    .subMenu{
+        position: relative;
+        display: inline-block;
+    }
+   
+    .subMenu ul{
+        position: absolute;
+        display:none;
+        background-color: #a3e2f4;
+        z-index: 1;
+        top: 50px;
+        padding: 1rem;
+        border-radius:0px 1rem  1rem ;
+    }
+    .subMenu ul li{
+        width: 15rem;
+        margin: 0;
+        text-align: left;
+        color: black;
+        display: block;
+        border-bottom: solid 1px rgb(30, 61, 93);
+        
+    }
+    .subMenu:hover ul {
+        display: block;
+    }
+    .subMenu li:hover{
+        
+        background-color: #0b3b4c;
+
+    }
+
     .container{
         padding: 0 1rem;
         margin: auto;
@@ -66,6 +99,7 @@
     
     .slideContainer{
         padding: 0;
+        display: flex;
     }
     .sliderWrapper{
         position: relative;
@@ -124,12 +158,12 @@
         height: auto;
 
     }
-    section{
-        margin: auto;
-    }
-
+   
     .sidebar{
       
+    }
+    .links{
+
     }
     footer{
         width: 100%;
@@ -174,9 +208,14 @@
     form input{
         height: 2rem;
     }
+    form label{
+        margin: auto;
+    }
     form input, textarea{
-        width: 400px;
+        width: 100%;
         background-color: #9aaeb7;
+        font-size: inherit;
+        margin: 1rem auto;
     }
     form .submitBtn{
         margin: auto;
