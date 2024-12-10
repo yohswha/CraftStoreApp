@@ -90,8 +90,32 @@
 
     }
     .sidebar{
-        display: inline-block;
+        position: absolute;
+        display: block;
+        width: 15rem;
+        height: 100%;
+        padding: 2rem 0 ;
+       border: solid;
+        background-color: #02252c;
+
     }
+    .sidebar ul {
+    
+        display: inline-block;
+        margin: auto;
+        border: solid;
+        height: 100%;
+
+    }
+    .sidebar ul li {
+        display: inherit;
+        width: 10rem;
+        float: left;
+        margin: auto;
+        text-align: center;
+    }
+    
+
 
     .container{
         padding: 0 1rem;
