@@ -103,17 +103,17 @@
     
         display: inline-block;
         margin: auto;
-        border: solid;
+        width: 15rem;
         height: 100%;
 
     }
     .sidebar ul li {
-       display: inherit;
-    width: 10rem;
-    float: left;
-    margin: 12px auto;
-    text-align: center;
-    padding: 0;
+        display: inherit;
+        width: 10rem;
+        float: left;
+        margin: 12px auto;
+        text-align: center;
+        padding: 0;
 	    
     }
     
@@ -124,7 +124,7 @@
         margin: auto;
         width: 70rem;
         font-size: large;
-}
+    }
     
     .slideContainer{
         padding: 0;
