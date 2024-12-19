@@ -6,7 +6,8 @@
     body{
         margin:0;
         padding:0;
-        background-color: #122a35;
+        background-color: #1b3e4e;
+    
         color: #99a0a2;
     }
 	.MenuParent{
@@ -228,6 +229,8 @@
         border-radius: 22px;  
         background-color: rgb(84, 101, 121);
         border: solid;
+        font-family: inherit;
+
     }
     form fieldset{
         border: solid 1px;
@@ -259,7 +262,7 @@
         height: 30rem;
         margin: 19rem auto;
         padding: 2rem 3rem;
-        background-color: rgb(84, 101, 121);
+        background: linear-gradient(rgb(6, 27, 27),rgb(9, 57, 81));
 
     }
     .login-header{
@@ -284,6 +287,7 @@
     .log-form label, .log-form input{
         margin: 1rem;
         width: 90%;
+        font-family: inherit;
         
     }
     .log-form a{
@@ -292,4 +296,6 @@
         display: flex;
         padding: 1rem;
         justify-content: center;
+        font-family: inherit;
+
     }
