@@ -6,15 +6,14 @@
     body{
         margin:0;
         padding:0;
-        background-color: #1b3e4e;
+        background-color: #fff;
     
-        color: #99a0a2;
+        color: #3c4041;
     }
 	.MenuParent{
         margin:0;
         background-color:rgb(3, 38, 57);
         text-align:center;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     	color: #fff;
         width: 100%;        
     }
@@ -189,31 +188,39 @@
 
     }
    
-    .links{
+    .links a{
 
+        color: #0f2529;
+    }
+    .links a:hover{
+
+        color: #6299a4;
     }
     footer{
         width: 100%;
         text-align: center;
-        background-color:rgb(255, 253, 253);
-        color: #122a35; 
+        background-color:rgb(16, 38, 65);
+        color: #fff; 
         position: fixed;
         bottom: 0;
-        border: solid black;   
+        border: solid black;  
     }
        
     table, th,td{
-        border: 1px solid;
         border-collapse: collapse
     }
     th,td{
         padding: 15px;
     }
+    tr:nth-child(odd){
+        background-color: rgba(4, 62, 87, 0.552);
+
+    }
     tr:nth-child(even){
-        background-color: rgb(13, 30, 28);
+        background-color: rgb(150, 198, 210);
     }
     tr:hover{
-        background-color: rgb(9, 22, 26);
+        background-color: rgb(89, 140, 156);
     }
     table{
         margin: auto;
@@ -240,10 +247,11 @@
     }
     form label{
         margin: auto;
+        color: rgb(28, 27, 27);
     }
     form input, textarea{
         width: 100%;
-        background-color: #9aaeb7;
+        background-color: #c9dadf;
         font-size: inherit;
         margin: 1rem auto;
     }
@@ -255,6 +263,9 @@
         font-style:italic;
         font-size:large;
     }
+    form .submitBtn:hover{
+        background-color: rgb(54, 151, 46);
+    }
     .login{
         width: 30%;
         border: solid;
@@ -262,7 +273,8 @@
         height: 30rem;
         margin: 19rem auto;
         padding: 2rem 3rem;
-        background: linear-gradient(rgb(6, 27, 27),rgb(9, 57, 81));
+        background: linear-gradient(rgb(6, 27, 27),rgb(111, 210, 232));
+        color: #fff;
 
     }
     .login-header{
@@ -287,8 +299,10 @@
     .log-form label, .log-form input{
         margin: 1rem;
         width: 90%;
-        font-family: inherit;
-        
+    }
+    .log-form input{
+                background-color: #c9dadf;
+
     }
     .log-form a{
         margin: 3rem auto;
