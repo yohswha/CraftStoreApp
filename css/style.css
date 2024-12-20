@@ -7,7 +7,6 @@
         margin:0;
         padding:0;
         background-color: #fff;
-    
         color: #3c4041;
     }
 	.MenuParent{
@@ -63,7 +62,7 @@
         display: inline-block;
     }
    
-    .subMenu ul{
+    .subMenu ul {
         position: absolute;
         display:none;
         background-color: #a3e2f4;
@@ -71,6 +70,7 @@
         top: 50px;
         padding: 1rem;
         border-radius:0px 1rem  1rem ;
+        border: solid 2px;
     }
     .subMenu ul li{
         width: 15rem;
@@ -81,7 +81,7 @@
         border-bottom: solid 1px rgb(30, 61, 93);
         
     }
-    .subMenu:hover ul {
+    .subMenu:hover ul   {
         display: block;
     }
     .subMenu li:hover{
@@ -122,7 +122,7 @@
     .container{
         padding: 0 1rem;
         margin: auto;
-        width: 70rem;
+        width: 90%;
         font-size: large;
     }
     
