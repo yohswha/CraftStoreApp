@@ -122,7 +122,7 @@
     .container{
         padding: 0 1rem;
         margin: auto;
-        width: 90%;
+        width: 80%;
         font-size: large;
     }
     
@@ -176,6 +176,7 @@
 
     .images{
         display: flex;
+        justify-content: center;
     }
     img:active{
         width: 500px;
@@ -231,7 +232,7 @@
     form{
         margin: 2rem auto;
         padding: 50px;
-        width: 40%;
+        width: 35%;
         height: 30%;
         border-radius: 22px;  
         background-color: rgb(84, 101, 121);
@@ -267,7 +268,7 @@
         background-color: rgb(54, 151, 46);
     }
     .login{
-        width: 30%;
+        width: 25%;
         border: solid;
         border-radius: 0rem 6rem;
         height: 30rem;
